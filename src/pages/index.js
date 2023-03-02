@@ -5,22 +5,22 @@ export default function Home() {
   return (
     <>
       <Head>
-    <meta name="viewport" content="width=device-width"/>
-    <title>MG Mesh Monitor</title>
+        <meta name="viewport" content="width=device-width"/>
+        <title>MG Mesh Monitor</title>
       </Head>
 
       <main className="">
-      <nav className="navbar navbar-light background">
-        <a className="navbar-brand" href="#">
-            <img src="https://1hudmjfcafrhu.cdn.shift8web.ca/wp-content/uploads/2019/05/newweblogo.png"
-                className="d-inline align-top" alt=""/>
-        </a>
+        <nav className="navbar navbar-light background">
+            <a className="navbar-brand" href="#">
+                <img src="https://1hudmjfcafrhu.cdn.shift8web.ca/wp-content/uploads/2019/05/newweblogo.png"
+                    className="d-inline align-top" alt=""/>
+            </a>
 
-    </nav>
+        </nav>
 
-    <div className="container ">
+        <div className="container ">
 
-        <h1 className="display-6  py-1 font-weight-normal mt-4  label"> MG Mesh Monitor</h1>
+            <h1 className="display-6  py-1 font-weight-normal mt-4  label"> MG Mesh Monitor</h1>
 
 
         <div className="form-row">
