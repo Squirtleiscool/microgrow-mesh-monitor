@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
 
 export default function Home() {
@@ -8,11 +7,9 @@ export default function Home() {
       <Head>
     <meta name="viewport" content="width=device-width"/>
     <title>MG Mesh Monitor</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
       </Head>
 
-      <main className={styles.main}>
+      <main className="">
       <nav className="navbar navbar-light background">
         <a className="navbar-brand" href="#">
             <img src="https://1hudmjfcafrhu.cdn.shift8web.ca/wp-content/uploads/2019/05/newweblogo.png"
