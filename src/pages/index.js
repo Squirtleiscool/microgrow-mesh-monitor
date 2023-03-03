@@ -9,8 +9,8 @@ export default function Home() {
         <title>MG Mesh Monitor</title>
       </Head>
 
-      <main className="">
-        <nav className="navbar navbar-light background">
+      <main className="bg-white">
+        <nav className="border-black border-2">
             <a className="navbar-brand" href="#">
                 <img src="https://1hudmjfcafrhu.cdn.shift8web.ca/wp-content/uploads/2019/05/newweblogo.png"
                     className="d-inline align-top" alt=""/>
@@ -75,12 +75,12 @@ export default function Home() {
                 </tbody>
             </table>
         </div>
-    <Script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.2/mqttws31.min.js"
-        type="text/javascript"/>
-    <Script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"/>
-    <Script src="js/requests.js"/>
-    <Script src="js/browser-ssl.js"/>
-    </div>
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.2/mqttws31.min.js"
+            type="text/javascript"/>
+        <Script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"/>
+        <Script src="js/requests.js"/>
+        <Script src="js/browser-ssl.js"/>
+        </div>
       </main>
     </>
   )
